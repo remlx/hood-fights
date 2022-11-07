@@ -1,7 +1,295 @@
-jhefgsdujefgsio
+print("")
+print("https://discord.gg/DgSNrmyXHu")
 
-564564567456,
-4564567345674567,
-45656456,
-777644567,
-45676767456767, --fgjkfgnjk
+wait(0.1)
+
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("remi's hood fights script")
+
+local serv = win:Server("Player", "")
+
+local btns = serv:Channel("Main")
+--
+btns:Button(
+    "Fly (X)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
+    end
+)
+--
+btns:Button(
+    "speed z",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5L9Va6AE"))()
+    end
+)
+
+btns:Button(
+    "click tp",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/BHMCPy0k"))()
+    end
+)
+
+btns:Button(
+    "inf jump",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7gwquKc4"))()
+    end
+)
+
+
+btns:Button(
+    "kick self",
+    function()
+        game:GetService("Players").LocalPlayer:Kick('you kicked your self')
+    end
+)
+
+
+btns:Button(
+    "kick all (layed clothing needed 50% chance)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/hp77QYns"))()
+    end
+)
+
+btns:Button(
+    "anti fling (laggy)",
+    function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/AntiFling.lua'))()
+    end
+)
+
+btns:Button(
+    "destroy legs",
+    function()
+        game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+        game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
+    end
+)
+
+btns:Button(
+    "destroy arms",
+    function()
+        game.Players.LocalPlayer.Character.RightUpperArm:Destroy()
+        game.Players.LocalPlayer.Character.LeftUpperArm:Destroy()
+    end
+)
+
+btns:Button(
+    "fe fat",
+    function()
+        game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
+        game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
+    end
+)
+
+btns:Button(
+    "auto clicker (l)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/wQBWtp3f"))()
+    end
+)
+
+btns:Button(
+    "no input delay",
+    function()
+        local noinputdelay = game:GetService("CorePackages").Packages
+        noinputdelay:Destroy()
+    end
+)
+
+btns:Button(
+    "hit box expander",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/m4u9cQuz"))()
+    end
+)
+
+btns:Button(
+    "noclip (b)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/FUqZvEyj"))()
+    end
+)
+
+local btns = serv:Channel("anti aim")
+
+btns:Button(
+    "underground AA (no toggles)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Q7vC3bWy"))()
+    end
+)
+
+btns:Button(
+    "blatant AA (ass)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/NzeasXzd"))()
+    end
+)
+
+btns:Button(
+    "break prediction",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/QEffS0x1"))()
+    end
+)
+
+btns:Button(
+    "jump prediction breaker",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/8TeatbVm"))()
+    end
+)
+
+btns:Button(
+    "desync (v)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/QTAdrEQM"))()
+    end
+)
+
+btns:Button(
+    "moonwalk (ass)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/M0N07KK0"))()
+    end
+)
+
+local btns = serv:Channel("aimbots")
+
+btns:Button(
+    "silent aim",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/yNnC0cWj"))()
+    end
+)
+
+btns:Button(
+    "aimlock (h)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CUqKC55c"))()
+    end
+)
+
+local btns = serv:Channel("fun")
+
+btns:Button(
+    "ghost",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/FyxSpa1s"))()
+    end
+)
+
+btns:Button(
+    "titan",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/dQpSqFvm"))()
+    end
+)
+
+btns:Button(
+    "telekinesis",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/qtZcirVq"))()
+    end
+)
+
+btns:Button(
+    "spectator script",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/GPiJN2gB"))()
+    end
+)
+
+btns:Button(
+    "free cam (Shift + P)",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkriptr/RBLXSkriptr/main/Free%20Camera.lua", true))()
+    end
+)
+
+local btns = serv:Channel("misc")
+
+btns:Button(
+    "korblox (cs)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/2VruwUH4"))()
+    end
+)
+
+
+btns:Button(
+    "headless (cs)",
+    function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/nqEHEg83"))()
+    end
+)
+
+btns:Slider(
+    "fov",
+    0,
+    120,
+    70,
+    function(text)
+        workspace.CurrentCamera.FieldOfView = (text)
+    end
+)
+
+btns:Button(
+    "reset fov",
+    function()
+        workspace.CurrentCamera.FieldOfView = 70
+    end
+)
+
+btns:Button(
+    "boxes esp",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/Corner%202D%20Box%20ESP.lua"))()
+    end
+)
+
+btns:Button(
+    "fps unlocker",
+    function()
+local fps = 1000
+ 
+    if setfpscap then
+        setfpscap(fps)
+end
+    end
+)
+
+btns:Button(
+    "rainbow character",
+    function()
+        for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v:IsA("MeshPart") then
+				v.Material = "ForceField"
+				spawn(function()
+					while wait() do
+						for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+							if v:IsA("MeshPart") then
+								v.Color = Color3.fromHSV(tick()%5/5,1,1)
+								wait()
+							end
+						end 
+					end
+				end)
+			end
+		end
+    end
+)
+
+
+local player is 
+565643456,
+456453434,
+345645636,
+
+if they say: kick {userid}
