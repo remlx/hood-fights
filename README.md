@@ -1,2 +1,1 @@
-# hood-fights
-beta script
+jojo script making!!!
